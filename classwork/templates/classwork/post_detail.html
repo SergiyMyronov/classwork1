@@ -1,0 +1,36 @@
+{% extends "./base.html" %}
+
+{% block title %}Post Detail{% endblock %}
+
+{% block content %}
+    <h1>{{ object.header }}</h1>
+    <table>
+        <tr>
+            <td><b>Image:</b> {{ object.image }}</td>
+        </tr>
+        <tr>
+            <td><b>Short_description:</b> {{ object.short_description }}</td>
+        </tr>
+        <tr>
+            <td><b>Full_description:</b> {{ object.description }}</td>
+        </tr>
+        <tr>
+            <td><b>Is_active:</b> {{ object.is_active }}</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="divider"><hr/></td>
+        </tr>
+        <tr>
+            <td><a href="edit/{{ object.id }}"> (edit post) </a></td>
+        </tr>
+        <tr>
+            <td><a href="delete/{{ object.id }}"> (delete post) </a></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="divider"><hr/></td>
+        </tr>
+        <tr>
+            <td><a href="{% url 'post_list' %}"> << Back to the list of posts >> </a></td>
+        </tr>
+    </table>
+{% endblock %}
