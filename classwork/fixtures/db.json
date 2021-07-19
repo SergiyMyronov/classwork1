@@ -1,0 +1,2078 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 7,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 7,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 7,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 7,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add request",
+    "content_type": 8,
+    "codename": "add_request"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change request",
+    "content_type": 8,
+    "codename": "change_request"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete request",
+    "content_type": 8,
+    "codename": "delete_request"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view request",
+    "content_type": 8,
+    "codename": "view_request"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add response",
+    "content_type": 9,
+    "codename": "add_response"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change response",
+    "content_type": 9,
+    "codename": "change_response"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete response",
+    "content_type": 9,
+    "codename": "delete_response"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view response",
+    "content_type": 9,
+    "codename": "view_response"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add sql query",
+    "content_type": 10,
+    "codename": "add_sqlquery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change sql query",
+    "content_type": 10,
+    "codename": "change_sqlquery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete sql query",
+    "content_type": 10,
+    "codename": "delete_sqlquery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view sql query",
+    "content_type": 10,
+    "codename": "view_sqlquery"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 11,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 11,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 11,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 11,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 12,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 12,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 12,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 12,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$McScdI6T42rnl54wcQWRDy$7k/CNMUxk6Nv6lwZ5WYQ0/D4ohdTsPiLY1YjbTmQQe8=",
+    "last_login": "2021-07-19T16:21:04.961Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "sergemk@entecheco.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-07-18T21:01:12.906Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "silk",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "silk",
+    "model": "request"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "silk",
+    "model": "response"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "silk",
+    "model": "sqlquery"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "classwork",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "classwork",
+    "model": "comment"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i3189zw1ynynvurapys07ltacn77lj5x",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOUKQu3XsGMsMMUjU0Ke3KeHfbpAvd_vfef6uI61Li2mSOI6uLAnX63QjTU-oO-IH1Puk01WUeSe-KPmjTt4nldT3cv4OCrWy1EEIKHjib5NgHFpbOQ8JM4ilb1wcTANMAiBbIW2McDOHco-Vug-rzBRAkOCI:1m5W0v:CB_Warvfb33ibu0F7m9fmYFC3gdYRHELXKJPbOMaOzY",
+    "expire_date": "2021-08-02T16:21:05.069Z"
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "00e33698-7a21-46ec-8fe4-29fcc9ec7af3",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:37:03.005Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "02c3c2a5-a613-459c-8a14-f23588fc88f8",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"Full description\"], \"header\": [\"H1\"], \"image\": [\"\\u0421\\u043d\\u0438\\u043c\\u043e\\u043a \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430 \\u043e\\u0442 2021-07-03 23-26-15.png\"], \"is_active\": [\"on\"], \"short_description\": [\"Short description 01\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:29:47.665Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"292\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "04d00939-3114-4332-8b73-12596bb0d508",
+  "fields": {
+    "path": "/classwork/post/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:49:06.693Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "05db4f68-6e27-41c4-af47-ff5a92972aaa",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"I have never made a post. And now i have done it!!!\"], \"header\": [\"My first post\"], \"image\": [\"relate_model_structure.png\"], \"short_description\": [\"This is my first post!!!\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:25:38.070Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"257\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "0664560b-00d1-4384-90e2-fed8b4b302da",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:34:02.760Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "10272167-f75d-4709-93d3-40882ab03fe0",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:22:52.620Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "19345cd9-c918-432d-979e-e9b33859698c",
+  "fields": {
+    "path": "/admin/login/",
+    "query_params": "{\"next\": \"/admin/\"}",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"next\": [\"/admin/\"], \"password\": \"********************\", \"username\": \"********************\"}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:21:04.691Z",
+    "view_name": "admin:login",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"135\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/admin/login/?next=/admin/\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "1e73f8f0-71af-4087-8262-0355e204d286",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"I have never made a post. And now i have done it!!!\"], \"header\": [\"My first post\"], \"image\": [\"\\u0421\\u043d\\u0438\\u043c\\u043e\\u043a \\u044d\\u043a\\u0440\\u0430\\u043d\\u0430 \\u043e\\u0442 2021-06-12 21-26-09.png\"], \"is_active\": [\"on\"], \"short_description\": [\"This is my first post!!!\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:26:04.043Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"354\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "2bdb5c17-4b2d-4fbd-b2e5-d26599e9e1fa",
+  "fields": {
+    "path": "/classwork/post/delete/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\"}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:49:11.353Z",
+    "view_name": "classwork.views.PostDeleteView",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"84\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/delete/5\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "32f83860-27f5-44ae-8b61-15bf93220c9b",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-18T21:01:37.872Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "35969f95-7777-43f5-9f05-6072aacb4f59",
+  "fields": {
+    "path": "/admin/login/",
+    "query_params": "{\"next\": \"/admin/\"}",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:21:01.161Z",
+    "view_name": "admin:login",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "43963fd6-b9f0-4d8f-b0ad-dbb457c66f4c",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:20:36.031Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "4438235e-c72f-4e60-bc16-12d87bd526b4",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:43:25.113Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "495ef218-9b3e-4ba2-9070-406ecb9c02c9",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:43:30.775Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "4c19c918-860f-4f9a-af0a-4532fdece86b",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:00.469Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "4fda6384-50d7-4e97-95a8-c733ad707801",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:46:24.362Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"779191\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------223344720434723258054198565916\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "5021d055-f5fc-4037-8e80-aea1e33b062a",
+  "fields": {
+    "path": "/classwork/login/",
+    "query_params": "{\"next\": \"/classwork/post/\"}",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:20:47.414Z",
+    "view_name": "login",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "5767bf86-a841-4174-b0ba-135cbdfbd6c4",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:48:55.567Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "5a2ba612-6e13-41eb-ba2c-c19d806e352a",
+  "fields": {
+    "path": "/classwork",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-18T21:01:51.201Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "6201b61e-79a4-4420-aa11-035dbb519d4d",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:37:54.994Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"2095919\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------234827514230645202502324375098\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "63e941d7-9f76-495c-a617-56072dcd6d03",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:37:12.159Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "64258942-3bd5-45d0-96ae-98ca1e29f268",
+  "fields": {
+    "path": "/classwork/post/delete/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:49:08.218Z",
+    "view_name": "classwork.views.PostDeleteView",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/5\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "6445e985-8b93-4f34-8df3-d7e746666c13",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:40:33.910Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"359130\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------274708097441784115231497517881\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "6481dd3a-c463-468c-93d5-f79d35534a2b",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:44:19.579Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"381689\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------6191532352065092042418446034\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "64eeefe0-5b3f-4b06-a25d-2a1ceb6ac71a",
+  "fields": {
+    "path": "/classwork/post/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:14.601Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "6bf0c582-9fd4-49aa-bfcf-e43f7ec5951b",
+  "fields": {
+    "path": "/classwork/post/2",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:09.964Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "710bec87-35d6-4936-8e07-a807fd00264a",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:49:04.916Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "7385029e-3472-4fad-b97f-9538a035af1f",
+  "fields": {
+    "path": "/classwork/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-18T21:03:11.737Z",
+    "view_name": "index",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "74d0a787-b4ab-435b-a05b-07b2bb42877a",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"I have never made a post. And now i have done it!!!\"], \"header\": [\"My first post\"], \"image\": [\"MTM_customers_of_a_product.png\"], \"is_active\": [\"on\"], \"short_description\": [\"This is my first post!!!\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:26:31.366Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"274\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "7fab601a-281b-43ca-a9ad-b92675935f6d",
+  "fields": {
+    "path": "/favicon.ico",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:44:19.949Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"image/webp,*/*\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"CONNECTION\": \"keep-alive\", \"SEC-FETCH-DEST\": \"image\", \"SEC-FETCH-MODE\": \"no-cors\", \"SEC-FETCH-SITE\": \"same-origin\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "828c3e63-c814-4b86-ad06-7d66721bc907",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:46:24.559Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "8452987e-9ac2-4517-9ce8-77bdecb47e92",
+  "fields": {
+    "path": "/classwork/post/edit/2",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:25.747Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/2\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "898fbdac-2f7a-47d2-a1d4-4d2c0f3d598a",
+  "fields": {
+    "path": "/classwork/post/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:19.107Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "8a88cbf7-3605-4fcf-8ebb-452aba24af10",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:26:43.227Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "8b57afec-2ec8-418b-aa87-1c04353d7abd",
+  "fields": {
+    "path": "/classwork/post/edit/1",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:40.996Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/1\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "8ebaa56e-ef95-4075-af50-6b74b429bf8d",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:33.260Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/edit/2\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "91f9d29a-0aba-4e49-a272-33791c07cf36",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:40:09.597Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "924e1352-c8bc-436f-8355-692840fb1706",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:27:21.060Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "944879bb-7033-41f7-a1be-36bc910d6478",
+  "fields": {
+    "path": "/classwork/post/delete/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:20.614Z",
+    "view_name": "classwork.views.PostDetailView",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/5\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "9ce0993e-e2a4-43d8-b4e4-ce221bb10b09",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:34:36.950Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"362502\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------3803046210240384508577534916\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "9f99e3b1-b25c-475f-afd7-ec3a8ea5e13a",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:21:25.151Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "a0a1f99a-2844-416f-85db-eb9176470b81",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:43:18.004Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "a0caf2d2-9314-4c41-9380-ca138b10587d",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:23:02.559Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "a8de1747-2dbe-40a3-a2a5-fd42aa16c06e",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:49:11.525Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/delete/5\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "a8edfd35-3788-49b0-94c4-5fca771d3432",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:47.605Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/edit/1\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "aaf3f059-6cb4-43ac-a2e0-912f1f359bfa",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "POST",
+    "start_time": "2021-07-19T16:32:18.311Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"473593\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------224897672920500885271846302028\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "ac021433-ee26-4b27-855e-4a6361e377bc",
+  "fields": {
+    "path": "/classwork/post/1",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:36.188Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "ae0f0809-5f6a-493f-9d32-63c8ff73294e",
+  "fields": {
+    "path": "/favicon.ico",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:32:05.532Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"image/webp,*/*\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"CONNECTION\": \"keep-alive\", \"SEC-FETCH-DEST\": \"image\", \"SEC-FETCH-MODE\": \"no-cors\", \"SEC-FETCH-SITE\": \"same-origin\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "ae99b694-9f1e-406a-8f14-02739d5cfe8b",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:32:05.392Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "b1ecccc8-bd45-498c-a94f-9e9f6841abbe",
+  "fields": {
+    "path": "/classwork/post/2",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:20.909Z",
+    "view_name": "post_detail",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "b4dc08b7-63a4-4610-b3d1-9e13a87f9626",
+  "fields": {
+    "path": "/admin/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:21:05.096Z",
+    "view_name": "admin:index",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/admin/login/?next=/admin/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "b6e51d06-9b13-48f8-9fd6-f227a1f71d3f",
+  "fields": {
+    "path": "/admin/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:21:01.040Z",
+    "view_name": "admin:index",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "bb38b133-09db-4593-aec8-0edd68c6d210",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:34:04.519Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "ccbe69b0-70c3-4510-96fe-a1b8f5444498",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:22:59.506Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "d0a74a5d-7120-4d26-b04a-98d0e3b7c5c6",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:33:48.894Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "dbc04224-17df-4646-9b8e-ae889ce80101",
+  "fields": {
+    "path": "/classwork/post/edit/1",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"D1  111\"], \"header\": [\"H1\"], \"image\": [\"\"], \"is_active\": [\"on\"], \"short_description\": [\"Sh_d1\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:39:47.399Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"892\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------41963920018491042651695490369\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/edit/1\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "dc110af7-169b-449b-acc6-d5ee00105550",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:17.490Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/5\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "dfe0aac7-d57e-442f-ad11-581736861271",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:20:47.296Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "e33a5ac5-da69-4013-b52f-efc0d18d488a",
+  "fields": {
+    "path": "/classwork/post/edit/2",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"Description02___\"], \"header\": [\"Header02\"], \"image\": [\"\"], \"is_active\": [\"on\"], \"short_description\": [\"Short02\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:39:33.130Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"909\", \"CONTENT-TYPE\": \"multipart/form-data; boundary=---------------------------15669925108639238763377071623\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/edit/2\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "e348a624-32d7-4ce4-a008-8c0e1d162f02",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-18T21:01:31.113Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "e8844873-2156-407f-8537-055a3052348e",
+  "fields": {
+    "path": "/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-18T21:03:00.671Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"cross-site\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "efcc0eba-324b-47fc-9c3f-28a465c3c404",
+  "fields": {
+    "path": "/classwork/post/delete/delete/5",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:47:29.227Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/delete/5\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "f2ebb26c-56d5-4fa9-b556-57849043efb4",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:46:10.868Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "f3bcd25c-64e8-4845-9c56-34fba268289b",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "{\"csrfmiddlewaretoken\": \"********************\", \"description\": [\"Full description\"], \"header\": [\"H1\"], \"image\": [\"20200406183039-1822.jpg\"], \"is_active\": [\"on\"], \"short_description\": [\"Short description 01\"]}",
+    "method": "POST",
+    "start_time": "2021-07-19T16:29:18.062Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"205\", \"CONTENT-TYPE\": \"application/x-www-form-urlencoded\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/new\", \"ORIGIN\": \"http://127.0.0.1:8000\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "f709b07c-1052-499c-9d95-71e68b9c9d74",
+  "fields": {
+    "path": "/classwork/post/new",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:37:25.203Z",
+    "view_name": "post_form",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/classwork/post/\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"same-origin\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "fa19721c-6580-4010-a0f3-40a92d31c70d",
+  "fields": {
+    "path": "/favicon.ico",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:20:36.300Z",
+    "view_name": null,
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"image/webp,*/*\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"REFERER\": \"http://127.0.0.1:8000/\", \"CONNECTION\": \"keep-alive\", \"SEC-FETCH-DEST\": \"image\", \"SEC-FETCH-MODE\": \"no-cors\", \"SEC-FETCH-SITE\": \"same-origin\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "silk.request",
+  "pk": "fb90278c-79d4-4246-96a0-9a1f735033a5",
+  "fields": {
+    "path": "/classwork/post/",
+    "query_params": "",
+    "raw_body": "",
+    "body": "",
+    "method": "GET",
+    "start_time": "2021-07-19T16:39:10.482Z",
+    "view_name": "post_list",
+    "end_time": null,
+    "time_taken": null,
+    "encoded_headers": "{\"CONTENT-LENGTH\": \"\", \"CONTENT-TYPE\": \"text/plain\", \"HOST\": \"127.0.0.1:8000\", \"USER-AGENT\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0\", \"ACCEPT\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\", \"ACCEPT-LANGUAGE\": \"ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3\", \"ACCEPT-ENCODING\": \"gzip, deflate\", \"CONNECTION\": \"keep-alive\", \"UPGRADE-INSECURE-REQUESTS\": \"1\", \"SEC-FETCH-DEST\": \"document\", \"SEC-FETCH-MODE\": \"navigate\", \"SEC-FETCH-SITE\": \"none\", \"SEC-FETCH-USER\": \"?1\"}",
+    "meta_time": null,
+    "meta_num_queries": null,
+    "meta_time_spent_queries": null,
+    "pyprofile": "",
+    "prof_file": "",
+    "num_sql_queries": 0
+  }
+},
+{
+  "model": "classwork.post",
+  "pk": 1,
+  "fields": {
+    "header": "H1",
+    "short_description": "Sh_d1",
+    "image": "Снимок_экрана_от_2021-06-12_21-26-09.png",
+    "description": "D1  111",
+    "is_active": true,
+    "user": 1
+  }
+},
+{
+  "model": "classwork.post",
+  "pk": 2,
+  "fields": {
+    "header": "Header02",
+    "short_description": "Short02",
+    "image": "Снимок_экрана_от_2021-07-03_21-26-31.png",
+    "description": "Description02___",
+    "is_active": true,
+    "user": 1
+  }
+},
+{
+  "model": "classwork.post",
+  "pk": 3,
+  "fields": {
+    "header": "qwerqwrw",
+    "short_description": "werwerw",
+    "image": "Снимок_экрана_от_2021-07-03_13-09-18.png",
+    "description": "qweqweq",
+    "is_active": false,
+    "user": 1
+  }
+},
+{
+  "model": "classwork.post",
+  "pk": 4,
+  "fields": {
+    "header": "Header04",
+    "short_description": "04",
+    "image": "Снимок_экрана_от_2021-07-03_12-56-23.png",
+    "description": "04",
+    "is_active": true,
+    "user": 1
+  }
+}
+]
