@@ -1,16 +1,16 @@
 {% extends "./base.html" %}
 
-{% block title %}Posts{% endblock %}
+{% block title %}User Posts{% endblock %}
 
 {% block content %}
     <div class="page-header">
-        <h1>Posts</h1>
+        <h1>User Posts</h1>
     </div>
     <div class="content">
         <ul>
         {% for ps in object_list %}
             <li>
-                <h2>{{ ps.header }} </h2>
+                <h2><a href="{{ ps.id }}"> {{ ps.header }} </a> </h2>
                 <h5>Short_description: {{ ps.short_description }}</h5>
                 <h5>Full_description: {{ ps.description }}</h5>
                 <h5>Is_active: {{ ps.is_active }}</h5>
@@ -38,4 +38,6 @@
             {% endif %}
         </span>
     </div>
+    <b>__________________________</b>
+    <h5>(   <a href="/classwork/userpost/new">+ add new post +</a>   )</h5>
 {% endblock %}
