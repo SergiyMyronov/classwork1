@@ -22,8 +22,8 @@
                 <h5>Image: {{ ps.image }}</h5>
             </li>
             <div class="new_object">
-                <h5><a href="classwork/comment/new"> Comments:</a> {{ps.comm_cnt }}</h5>
-                <h5><a href="classwork/comment/new"> + Add new comment +</a></h5>
+                <h5><a href="comment/?post={{ ps.id }}&name={{ ps.header }}"> Comments:</a> {{ps.comm_cnt }}</h5>
+                <h5><a href="{% url 'comment_new' %}"> + Add new comment +</a></h5>
             </div>
             <div class="container-fluid">
                 <div class="row">

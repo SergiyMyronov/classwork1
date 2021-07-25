@@ -1,34 +1,29 @@
 {% extends "./base.html" %}
 
-{% block title %}User Posts{% endblock %}
+{% block title %}Comments{% endblock %}
 
 {% block content %}
     <div class="page-header">
-        <h1>User "{{ user }}" posts <b>    </b><a href="{% url 'post_new' %}"> +add</a></h1>
-        <a href="{% url 'post_list' %}">to all published posts</a>
-
+        {% if ps_name %}
+            <h1>Comments of the post "{{ ps_name }}"</h1>
+        {% else %}
+            <h1>All comments</h1>
+        {% endif %}
     </div>
     <div class="content">
         <ul>
-        {% for ps in object_list %}
+        {% for com in object_list %}
             <li>
-                <h2><a href="{{ ps.id }}"> {{ ps.header }} </a> </h2>
-                <h5>Short_description: {{ ps.short_description }}</h5>
-                <h5>Full_description: {{ ps.description|truncatechars:70 }}</h5>
-                <h5>Is_active: {{ ps.is_active }}</h5>
-                <h5>Image: {{ ps.image }}</h5>
+                <h2>{{ com.username }} </h2>
+                <h5>{{ com.text }}</h5>
             </li>
-            <div class="new_object">
-                <h5><a href="comment/?post={{ ps.id }}&name={{ ps.header }}"> Comments:</a> {{ps.comm_cnt }}</h5>
-                <h5><a href="{% url 'comment_new' %}"> + Add new comment +</a></h5>
-            </div>
             <div class="container-fluid">
                 <div class="row">
                     <hr style="height:3px;background-color:black;border:none;" />
                 </div>
             </div>
         {% empty %}
-            <li>No posts yet.</li>
+            <li>No comments yet.</li>
         {% endfor %}
         </ul>
     </div>
@@ -49,4 +44,8 @@
             {% endif %}
         </span>
     </div>
+    <div class="content">
+        <a href="{{ back }}"> << Back to the list of posts >> </a></td>
+    </div>
+
 {% endblock %}

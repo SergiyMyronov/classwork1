@@ -10,5 +10,9 @@ urlpatterns = [
     path('userpost/new', views.PostCreateView.as_view(), name='post_new'),
     path('userpost/edit/<int:pk>', views.PostUpdateView.as_view(), name='post_form'),
     path('userpost/delete/<int:pk>', views.PostDeleteView.as_view()),
+    path('comment/', views.CommentListView.as_view(), name='comment_list'),
+    path('post/comment/', views.CommentListView.as_view(), name='comment_list'),
+    path('userpost/comment/', views.CommentListView.as_view(), name='comment_list'),
+    path('comment/new', views.CommentCreateView.as_view(), name='comment_new'),
     path('login/', views.login, name='login'),
 ]

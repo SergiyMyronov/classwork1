@@ -35,6 +35,27 @@
             <tr>
                 <td><a href="{% url 'user_post_list' %}"> << Back to the list of posts >> </a></td>
             </tr>
+            <tr>
+                <td colspan="2" class="divider"><hr/></td>
+            </tr>
         </table>
+        <div class="comments">
+            <h4>Comments:</h4>
+            <ul>
+            {% for com in comm %}
+                <li>
+                    <p>User: {{ com.username }}</p>
+                    <p>Text: {{ com.text }}</p>
+                </li>
+                <div class="container-fluid">
+                    <div class="row">
+                        <hr style="height:2px;background-color:black;border:none;" />
+                    </div>
+                </div>
+            {% empty %}
+                <li>No comments yet.</li>
+            {% endfor %}
+            </ul>
+        </div>
     </div>
 {% endblock %}

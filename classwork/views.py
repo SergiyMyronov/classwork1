@@ -1,4 +1,4 @@
-from classwork.models import Post
+from classwork.models import Comment, Post
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Count
@@ -46,6 +46,12 @@ class PostDetailView(LoginRequiredMixin, DetailView):
     fields = ['image', 'header', 'short_description', 'description', 'is_active']
     success_url = reverse_lazy('post_detail')
 
+    def get_context_data(self, **kwargs):
+        context = super(PostDetailView, self).get_context_data(**kwargs)
+        comm = Comment.objects.filter(post_id=context['post'])
+        context['comm'] = comm
+        return context
+
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     login_url = reverse_lazy('login')
@@ -72,3 +78,27 @@ class PostDeleteView(LoginRequiredMixin, DeleteView):
     login_url = reverse_lazy('login')
     model = Post
     success_url = reverse_lazy('user_post_list')
+
+
+class CommentListView(ListView):
+    model = Comment
+    fields = ['post', 'username', 'text', 'is_published']
+    paginate_by = 6
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        ps_id = self.request.GET.get('post')
+        return qs.filter(post=ps_id)
+
+    def get_context_data(self, **kwargs):
+        context = super(CommentListView, self).get_context_data(**kwargs)
+        ps_name = self.request.GET.get('name')
+        back = self.request.META.get('HTTP_REFERER')
+        context['ps_name'] = ps_name
+        context['back'] = back
+        return context
+
+
+class CommentCreateView(CreateView):
+    model = Comment
+    fields = ['post', 'username', 'text']
