@@ -4,7 +4,9 @@
 
 {% block content %}
     <div class="page-header">
-        <h1>User Posts</h1>
+        <h1>User "{{ user }}" Posts <b>    </b><a href="{% url 'post_new' %}"> +add</a></h1>
+        <a href="{% url 'post_list' %}">to all published posts</a>
+
     </div>
     <div class="content">
         <ul>
@@ -12,10 +14,19 @@
             <li>
                 <h2><a href="{{ ps.id }}"> {{ ps.header }} </a> </h2>
                 <h5>Short_description: {{ ps.short_description }}</h5>
-                <h5>Full_description: {{ ps.description }}</h5>
+                <h5>Full_description: {{ ps.description|truncatechars:70 }}</h5>
                 <h5>Is_active: {{ ps.is_active }}</h5>
                 <h5>Image: {{ ps.image }}</h5>
             </li>
+            <div class="new_object">
+                <h5><a href="classwork/comment/new"> Comments:</a> {{ ps.comm_cnt }}</h5>
+                <h5><a href="classwork/comment/new"> + Add new comment +</a></h5>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <hr style="height:3px;background-color:black;border:none;" />
+                </div>
+            </div>
         {% empty %}
             <li>No posts yet.</li>
         {% endfor %}
@@ -38,6 +49,4 @@
             {% endif %}
         </span>
     </div>
-    <b>__________________________</b>
-    <h5>(   <a href="/classwork/userpost/new">+ add new post +</a>   )</h5>
 {% endblock %}

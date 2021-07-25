@@ -4,18 +4,32 @@
 
 {% block content %}
     <div class="page-header">
-        <h1>Posts</h1>
+        <h1>All published posts</h1>
+        {% if user.is_authenticated %}
+             <a href="{% url 'user_post_list' %}">to my posts</a>
+        {% else %}
+             <a href="{% url 'login' %}">login</a>
+        {% endif %}
     </div>
     <div class="content">
         <ul>
         {% for ps in object_list %}
             <li>
                 <h2>{{ ps.header }} </h2>
+                <h5>User: {{ ps.user }}</h5>
                 <h5>Short_description: {{ ps.short_description }}</h5>
-                <h5>Full_description: {{ ps.description }}</h5>
-                <h5>Is_active: {{ ps.is_active }}</h5>
+                <h5>Full_description: {{ ps.description|truncatechars:70 }}</h5>
                 <h5>Image: {{ ps.image }}</h5>
             </li>
+            <div class="new_object">
+                <h5><a href="classwork/comment/new"> Comments:</a> {{ps.comm_cnt }}</h5>
+                <h5><a href="classwork/comment/new"> + Add new comment +</a></h5>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <hr style="height:3px;background-color:black;border:none;" />
+                </div>
+            </div>
         {% empty %}
             <li>No posts yet.</li>
         {% endfor %}

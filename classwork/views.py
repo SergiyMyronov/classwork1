@@ -1,6 +1,7 @@
 from classwork.models import Post
 
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db.models import Count
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.views.generic.detail import DetailView
@@ -19,10 +20,10 @@ def login(request):
 class PostListView(ListView):
     model = Post
     fields = ['image', 'header', 'short_description', 'description', 'is_active']
-    paginate_by = 4
+    paginate_by = 3
 
     def get_queryset(self):
-        qs = super().get_queryset()
+        qs = super().get_queryset().annotate(comm_cnt=Count('comment'))
         return qs.filter(is_active=True)
 
 
@@ -32,10 +33,10 @@ class UserPostListView(LoginRequiredMixin, ListView):
     template_name = 'classwork/user_post_list.html'
     fields = ['image', 'header', 'short_description', 'description', 'is_active']
     success_url = reverse_lazy('user_post_list')
-    paginate_by = 4
+    paginate_by = 3
 
     def get_queryset(self):
-        qs = super().get_queryset()
+        qs = super().get_queryset().annotate(comm_cnt=Count('comment'))
         return qs.filter(user=self.request.user)
 
 
