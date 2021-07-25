@@ -1,5 +1,9 @@
 from django.contrib.auth.models import User
+from django.core.mail import send_mail
 from django.db import models
+from django.db.models.signals import post_save, pre_save
+from django.dispatch import receiver
+from django.urls import reverse
 
 
 class Post(models.Model):
@@ -26,3 +30,39 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.text
+
+
+@receiver(post_save, sender=Post)
+def post_handler(sender, **kwargs):
+    new = kwargs["created"]
+    if new:
+        inst = kwargs["instance"]
+        subject = 'New post added'
+        from_email = 'sergemk@entecheco.com'
+        recipient_list = ['admin@gmail.com']
+        message = f'User {inst.user} has added a post "{inst.header}"'
+        send_mail(subject, message, from_email, recipient_list)
+
+
+@receiver(post_save, sender=Comment)
+def comment_post_save_handler(sender, **kwargs):
+    new = kwargs["created"]
+    inst = kwargs["instance"]
+    if new:
+        subject = 'New comment added'
+        from_email = 'sergemk@entecheco.com'
+        recipient_list = ['admin@gmail.com', inst.post.user.email]
+        message = f'User {inst.username} has added a comment on post "{inst.post.header}"'
+        send_mail(subject, message, from_email, recipient_list)
+
+
+@receiver(pre_save, sender=Comment)
+def comment_pre_save_handler(sender, **kwargs):
+    inst = kwargs["instance"]
+    if inst.is_published and not Comment.objects.get(id=inst.id).is_published:
+        subject = 'New comment is approved by admin'
+        from_email = 'sergemk@entecheco.com'
+        recipient_list = [inst.post.user.email]
+        message = f'User {inst.username} has added a comment on post "{inst.post.header}"\n' \
+                  f'Link to post: {reverse("post_detail", kwargs={"pk": inst.post.id})}'
+        send_mail(subject, message, from_email, recipient_list)
