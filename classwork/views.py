@@ -36,7 +36,7 @@ class UserPostListView(LoginRequiredMixin, ListView):
     paginate_by = 3
 
     def get_queryset(self):
-        qs = super().get_queryset().annotate(comm_cnt=Count('comment'))
+        qs = super().get_queryset()
         return qs.filter(user=self.request.user)
 
 
@@ -48,7 +48,7 @@ class PostDetailView(LoginRequiredMixin, DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(PostDetailView, self).get_context_data(**kwargs)
-        comm = Comment.objects.filter(post_id=context['post'])
+        comm = Comment.objects.filter(post_id=context['post'], is_published=True)
         context['comm'] = comm
         return context
 
@@ -88,7 +88,7 @@ class CommentListView(ListView):
     def get_queryset(self):
         qs = super().get_queryset()
         ps_id = self.request.GET.get('post')
-        return qs.filter(post=ps_id)
+        return qs.filter(post=ps_id, is_published=True)
 
     def get_context_data(self, **kwargs):
         context = super(CommentListView, self).get_context_data(**kwargs)
@@ -101,4 +101,18 @@ class CommentListView(ListView):
 
 class CommentCreateView(CreateView):
     model = Comment
-    fields = ['post', 'username', 'text']
+    fields = ['username', 'text']
+    success_url = reverse_lazy('post_list')
+
+    def get_context_data(self, **kwargs):
+        context = super(CommentCreateView, self).get_context_data(**kwargs)
+        ps_name = self.request.GET.get('name')
+        context['ps_name'] = ps_name
+        return context
+
+    def form_valid(self, form):
+        comm = form.save(commit=False)
+        comm.post_id = self.request.GET.get('post')
+        comm.save()
+        self.object = comm
+        return HttpResponseRedirect(self.get_success_url())

@@ -13,6 +13,10 @@ class Post(models.Model):
     def __str__(self):
         return self.header
 
+    def published_comments_count(self):
+        cnt = Comment.objects.filter(post=self.id, is_published=True).count()
+        return cnt
+
 
 class Comment(models.Model):
     username = models.CharField(max_length=100)

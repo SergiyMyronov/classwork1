@@ -13,6 +13,8 @@ urlpatterns = [
     path('comment/', views.CommentListView.as_view(), name='comment_list'),
     path('post/comment/', views.CommentListView.as_view(), name='comment_list'),
     path('userpost/comment/', views.CommentListView.as_view(), name='comment_list'),
+    path('post/comment/new/', views.CommentCreateView.as_view(), name='comment_form'),
+    path('userpost/comment/new/', views.CommentCreateView.as_view(), name='comment_form'),
     path('comment/new', views.CommentCreateView.as_view(), name='comment_new'),
     path('login/', views.login, name='login'),
 ]
