@@ -16,5 +16,6 @@ urlpatterns = [
     path('post/comment/new/', views.CommentCreateView.as_view(), name='comment_form'),
     path('userpost/comment/new/', views.CommentCreateView.as_view(), name='comment_form'),
     path('comment/new', views.CommentCreateView.as_view(), name='comment_new'),
+    path('post/mail/new/', views.MailToAdminCreateView.as_view(), name='mail_form'),
     path('login/', views.login, name='login'),
 ]

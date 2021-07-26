@@ -4,12 +4,17 @@
 
 {% block content %}
     <div class="page-header">
-        <h1>All published posts</h1>
-        {% if user.is_authenticated %}
-             <a href="{% url 'user_post_list' %}">to my posts</a>
-        {% else %}
-             <a href="{% url 'login' %}">login</a>
-        {% endif %}
+        <div>
+            <h1>All published posts</h1>
+            {% if user.is_authenticated %}
+                 <li><a href="{% url 'user_post_list' %}">to my posts</a></li>
+            {% else %}
+                 <li><a href="{% url 'login' %}">login</a></li>
+            {% endif %}
+        </div>
+        <div class="left-block">
+            <li><a href="{% url 'mail_form' %}">mail to admin</a></li>
+        </div>
     </div>
     <div class="content">
         <ul>

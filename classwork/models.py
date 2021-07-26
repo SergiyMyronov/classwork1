@@ -1,9 +1,22 @@
+import datetime
+
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.db import models
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
 from django.urls import reverse
+
+
+class MailToAdmin(models.Model):
+    username = models.CharField(max_length=100)
+    text = models.TextField()
+    from_mail = models.EmailField()
+    date = models.DateTimeField(default=datetime.datetime.now())
+
+    def __str__(self):
+        return self.text
 
 
 class Post(models.Model):
@@ -39,7 +52,7 @@ def post_handler(sender, **kwargs):
         inst = kwargs["instance"]
         subject = 'New post added'
         from_email = 'sergemk@entecheco.com'
-        recipient_list = ['admin@gmail.com']
+        recipient_list = [settings.ADMINS[1]]
         message = f'User {inst.user} has added a post "{inst.header}"'
         send_mail(subject, message, from_email, recipient_list)
 
@@ -51,7 +64,7 @@ def comment_post_save_handler(sender, **kwargs):
     if new:
         subject = 'New comment added'
         from_email = 'sergemk@entecheco.com'
-        recipient_list = ['admin@gmail.com', inst.post.user.email]
+        recipient_list = [settings.ADMINS[1]]
         message = f'User {inst.username} has added a comment on post "{inst.post.header}"'
         send_mail(subject, message, from_email, recipient_list)
 
@@ -65,4 +78,16 @@ def comment_pre_save_handler(sender, **kwargs):
         recipient_list = [inst.post.user.email]
         message = f'User {inst.username} has added a comment on post "{inst.post.header}"\n' \
                   f'Link to post: {reverse("post_detail", kwargs={"pk": inst.post.id})}'
+        send_mail(subject, message, from_email, recipient_list)
+
+
+@receiver(post_save, sender=MailToAdmin)
+def mailtoadmin_handler(sender, **kwargs):
+    new = kwargs["created"]
+    if new:
+        inst = kwargs["instance"]
+        subject = 'Message from user ' + inst.username
+        from_email = inst.from_mail
+        recipient_list = [settings.ADMINS[1]]
+        message = inst.text
         send_mail(subject, message, from_email, recipient_list)

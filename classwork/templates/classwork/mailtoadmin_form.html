@@ -1,18 +1,21 @@
 {% extends "./base.html" %}
 
-{% block title %}Post{% endblock %}
+{% block title %}Mail to admin{% endblock %}
 
 {% block content %}
     <div class="page-header">
-        <h1>{{ object.header }}</h1>
+        <h1>Send message to admin</h1>
+    </div>
+    <div class="block-header">
+        <h3>Enter your name, email and text:</h3>
     </div>
     <div class="content">
         <form method="post" enctype="multipart/form-data">{% csrf_token %}
             {{ form.as_p }}
-            <input type="submit" value="Save">
+            <input type="submit" value="Send">
         </form>
     </div>
     <div class="block-header">
-        <a href="{% url 'user_post_list' %}"> << Back to the list of posts >> </a>
+        <a href="{% url 'post_list' %}"> << Back to the list of posts >> </a>
     </div>
 {% endblock %}

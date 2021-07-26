@@ -77,6 +77,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'classwork1.wsgi.application'
 
+ADMINS = (
+    'Admin',
+    'admin@entecheco.com',
+)
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases

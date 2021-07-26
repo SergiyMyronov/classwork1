@@ -1,4 +1,4 @@
-from classwork.models import Comment, Post
+from classwork.models import Comment, MailToAdmin, Post
 
 from django.contrib import admin
 
@@ -26,5 +26,15 @@ class CommentAdmin(admin.ModelAdmin):
     search_fields = ['username']
 
 
+class MailToAdminAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None, {'fields': ['username', 'from_mail', 'text']}),
+    ]
+    list_display = ['username', 'from_mail', 'text']
+    list_filter = ['username']
+    search_fields = ['username']
+
+
 admin.site.register(Post, PostAdmin)
 admin.site.register(Comment, CommentAdmin)
+admin.site.register(MailToAdmin, MailToAdminAdmin)

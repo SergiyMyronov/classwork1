@@ -1,4 +1,4 @@
-from classwork.models import Comment, Post
+from classwork.models import Comment, MailToAdmin, Post
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Count
@@ -116,3 +116,9 @@ class CommentCreateView(CreateView):
         comm.save()
         self.object = comm
         return HttpResponseRedirect(self.get_success_url())
+
+
+class MailToAdminCreateView(CreateView):
+    model = MailToAdmin
+    fields = ['username', 'from_mail', 'text']
+    success_url = reverse_lazy('post_list')

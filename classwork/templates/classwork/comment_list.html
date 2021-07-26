@@ -27,6 +27,9 @@
         {% endfor %}
         </ul>
     </div>
+    <div class="block-header">
+        <a href="{{ back }}"> << Back to the list of posts >> </a>
+    </div>
     <div class="pagination">
         <span class="step-links">
             {% if page_obj.has_previous %}
@@ -44,8 +47,4 @@
             {% endif %}
         </span>
     </div>
-    <div class="content">
-        <a href="{{ back }}"> << Back to the list of posts >> </a></td>
-    </div>
-
 {% endblock %}
