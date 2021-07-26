@@ -4,6 +4,8 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Count
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse_lazy
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import cache_page
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from django.views.generic.list import ListView
@@ -17,6 +19,7 @@ def login(request):
     return HttpResponse("Log in through the admin panel")
 
 
+@method_decorator(cache_page(20), name='dispatch')
 class PostListView(ListView):
     model = Post
     fields = ['image', 'header', 'short_description', 'description', 'is_active']
@@ -80,6 +83,7 @@ class PostDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy('user_post_list')
 
 
+@method_decorator(cache_page(20), name='dispatch')
 class CommentListView(ListView):
     model = Comment
     fields = ['post', 'username', 'text', 'is_published']
