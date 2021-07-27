@@ -1,9 +1,8 @@
-from django.urls import path
+from django.urls import include, path
 
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
     path('post/', views.PostListView.as_view(), name='post_list'),
     path('userpost/', views.UserPostListView.as_view(), name='user_post_list'),
     path('userpost/<int:pk>', views.PostDetailView.as_view(), name='post_detail'),
@@ -17,5 +16,5 @@ urlpatterns = [
     path('userpost/comment/new/', views.CommentCreateView.as_view(), name='comment_form'),
     path('comment/new', views.CommentCreateView.as_view(), name='comment_new'),
     path('post/mail/new/', views.MailToAdminCreateView.as_view(), name='mail_form'),
-    path('login/', views.login, name='login'),
+    path('', include('django.contrib.auth.urls')),
 ]

@@ -19,7 +19,7 @@ def login(request):
     return HttpResponse("Log in through the admin panel")
 
 
-@method_decorator(cache_page(20), name='dispatch')
+@method_decorator(cache_page(10), name='dispatch')
 class PostListView(ListView):
     model = Post
     fields = ['image', 'header', 'short_description', 'description', 'is_active']
@@ -83,11 +83,11 @@ class PostDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy('user_post_list')
 
 
-@method_decorator(cache_page(20), name='dispatch')
+@method_decorator(cache_page(10), name='dispatch')
 class CommentListView(ListView):
     model = Comment
     fields = ['post', 'username', 'text', 'is_published']
-    paginate_by = 6
+    paginate_by = 8
 
     def get_queryset(self):
         qs = super().get_queryset()
