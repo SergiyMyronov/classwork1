@@ -4,12 +4,19 @@
 
 {% block content %}
     <div class="page-header">
-        <h1>User "{{ user }}" posts <b>    </b><a href="{% url 'post_new' %}"> +add</a></h1>
-        <li><a href="{% url 'post_list' %}">to all published posts</a></li>
-        {% if user.is_authenticated %}
-             <li><a href="{% url 'logout' %}">logout</a></li>
-        {% endif %}
-
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-10">
+                    <h1>User "{{ user }}" posts <a href="{% url 'post_new' %}" role="button" class="btn btn-default" >Add post</a></h1>
+                </div>
+                <div class="col-1">
+                    <a href="{% url 'post_list' %}" role="button" class="btn btn-default" >To all published posts</a>
+                </div>
+                <div class="col-1">
+                    <a href="{% url 'logout' %}" role="button" class="btn btn-default" >Logout</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="content">
         <ul>

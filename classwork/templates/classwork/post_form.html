@@ -4,7 +4,14 @@
 
 {% block content %}
     <div class="page-header">
-        <h1>{{ object.header }}</h1>
+        {% if object.header %}
+             <h1>{{ object.header }}</h1>
+        {% else %}
+             <h1>New post</h1>
+        {% endif %}
+    </div>
+    <div class="block-header">
+        <h3>Enter or change all required data:</h3>
     </div>
     <div class="content">
         <form method="post" enctype="multipart/form-data">{% csrf_token %}

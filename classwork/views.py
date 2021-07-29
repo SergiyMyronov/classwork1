@@ -1,8 +1,10 @@
 from classwork.models import Comment, MailToAdmin, Post
 
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Count
 from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
@@ -126,3 +128,13 @@ class MailToAdminCreateView(CreateView):
     model = MailToAdmin
     fields = ['username', 'from_mail', 'text']
     success_url = reverse_lazy('post_list')
+
+
+class SignUpView(CreateView):
+    form_class = UserCreationForm
+    success_url = reverse_lazy('signup_done')
+    template_name = 'registration/signup.html'
+
+
+def signup_done(request):
+    return render(request, 'registration/signup_done.html')
