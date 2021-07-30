@@ -31,7 +31,7 @@
                 <h5>Short_description: {{ ps.short_description }}</h5>
                 <h5>Full_description: {{ ps.description|truncatechars:70 }}</h5>
                 <h5>Is_active: {{ ps.is_active }}</h5>
-                <h5>Image: {{ ps.image }}</h5>
+                <h5>Image: <img src="{{ MEDIA_URL }}{{ps.image.name}}" width="30" height="20" alt="Image"/> </h5>
             </li>
             <div class="new_object">
                 <h5><a href="comment/?post={{ ps.id }}&name={{ ps.header }}"> Comments:</a> {{ps.published_comments_count }}</h5>
