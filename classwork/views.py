@@ -1,8 +1,8 @@
-
 from classwork.models import Comment, MailToAdmin, Post
 
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.models import User
 from django.db.models import Count
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
@@ -139,3 +139,23 @@ class SignUpView(CreateView):
 
 def signup_done(request):
     return render(request, 'registration/signup_done.html')
+
+
+class UserDetailView(DetailView):
+    model = User
+    fields = ['username', 'email', 'first_name', 'last_name']
+
+    def get_object(self, queryset=None):
+        obj = self.request.user
+        return obj
+
+
+class UserUpdateView(LoginRequiredMixin, UpdateView):
+    login_url = reverse_lazy('login')
+    model = User
+    fields = ['email', 'first_name', 'last_name']
+    success_url = reverse_lazy('user_post_list')
+
+    def get_object(self, queryset=None):
+        obj = self.request.user
+        return obj

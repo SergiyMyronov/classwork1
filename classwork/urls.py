@@ -18,5 +18,7 @@ urlpatterns = [
     path('post/mail/new/', views.MailToAdminCreateView.as_view(), name='mail_form'),
     path('signup/', views.SignUpView.as_view(), name='signup'),
     path('signup_done/', views.signup_done, name='signup_done'),
+    path('user/', views.UserDetailView.as_view(), name='user_detail'),
+    path('user/edit', views.UserUpdateView.as_view(), name='user_form'),
     path('', include('django.contrib.auth.urls')),
 ]

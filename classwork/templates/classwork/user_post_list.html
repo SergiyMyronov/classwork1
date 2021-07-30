@@ -6,15 +6,20 @@
     <div class="page-header">
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-10">
-                    <h1>User "{{ user }}" posts <a href="{% url 'post_new' %}" role="button" class="btn btn-default" >Add post</a></h1>
+                <div class="col-9">
+                    <h1>User "{{ user }}" posts <a href="{% url 'post_new' %}" role="button" class="btn btn-default" >Add a post</a></h1>
                 </div>
                 <div class="col-1">
-                    <a href="{% url 'post_list' %}" role="button" class="btn btn-default" >To all published posts</a>
+                    <a href="{% url 'post_list' %}" role="button" class="btn btn-default" >To ALL posts</a>
                 </div>
                 <div class="col-1">
                     <a href="{% url 'logout' %}" role="button" class="btn btn-default" >Logout</a>
                 </div>
+                {% if user.is_authenticated %}
+                    <div class="col-1">
+                        <a href="{% url 'user_form' %}" role="button" class="btn btn-default" >Edit profile</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
